@@ -23,7 +23,7 @@
         #set text(size: 8pt, style: "italic")
         Typst source code at
         #link("https://github.com/edgarcarbajal/typst-resume")[github.com/edgarcarbajal/typst-resume]
-        under MIT license.
+        under #link("https://opensource.org/license/MIT")[MIT] license.
     ]
 )
 
