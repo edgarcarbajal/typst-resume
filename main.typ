@@ -22,42 +22,43 @@
     ]
 )
 
-#align(center, text(24pt)[
-    *Edgar Carbajal*
-])
+// #align(center, text(24pt)[
+//     *Edgar Carbajal*
+// ])
 
+#grid(
+    align: horizon,
+    columns: (1fr, auto),
+    text(36pt)[
+        *Edgar Carbajal*
+    ],
+    block()[
+        Github: #link("https://github.com/edgarcarbajal")[github.com/edgarcarbajal]\
+        Email: #link("mailto:edgar@edgarcarbajal.com")[edgar\@edgarcarbajal.com]\
+        Website: #link("https://edgarcarbajal.com")[edgarcarbajal.com]
+    ]
+)
 
-Github: #link("https://github.com/edgarcarbajal")[github.com/edgarcarbajal]
-
-Email: #link("mailto:edgar@edgarcarbajal.com")[edgar\@edgarcarbajal.com]
-
-Website: #link("https://edgarcarbajal.com")[edgarcarbajal.com]
 
 = Education:
-#set block(spacing: .5em)
 #grid(
     columns: (1fr, 1fr, 1fr),
     rows: 2,
     row-gutter: 15pt,
-    column-gutter: 25pt,
+    column-gutter: 15pt,
     align: (left, center, right),
     //gutter: 25pt,
 
     //row 1
-    [*B.S. in Computer Science w/ Applied Math Minor*], [*Northern Illinois University*
-    
-    GPA: 3.95], [*Aug 2022 - May 2024*
-
+    [*B.S. in Computer Science w/ Applied Math Minor*], [*Northern Illinois University*\
+    GPA: 3.95], [*Aug 2022 - May 2024*\
     _DeKalb, IL_],
 
     // row 2
-    [*Associates in Science*], [*McHenry County College*
-    
-    GPA: 4.00], [*Aug 2020 - May 2022*
-    
+    [*Associates in Science*], [*McHenry County College*\
+    GPA: 4.00], [*Aug 2020 - May 2022*\
     _Crystal Lake, IL_]
 )
-#set block(spacing: 1.2em)
 Bachelor of Science - Computer Science - GPA: 3.95
 Northern Illinois University, DeKalb IL
 
