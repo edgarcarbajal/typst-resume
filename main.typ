@@ -1,5 +1,11 @@
 #show link: text.with(rgb("#00a3cd"))
 
+#show heading.where(level: 1): it => {
+    it
+    v(-3mm)
+    line(length: 100%)
+}
+
 #set document(title: "Resume", author: "Edgar Carbajal")
 
 #set page(
