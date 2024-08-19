@@ -17,7 +17,7 @@
         Typst source code at
         #link("https://github.com/edgarcarbajal/typst-resume")[github.com/edgarcarbajal/typst-resume]
         under
-        Cool
+        MIT
         license
     ]
 )
@@ -26,13 +26,7 @@
     *Edgar Carbajal*
 ])
 
-#let infoblock(pos, date, role, loc, term) = {
-    align(start)[#pos]; align(end)[#date]
 
-    align(start)[#role]; align(end)[#loc]
-        
-    box[#term]
-}
 Github: #link("https://github.com/edgarcarbajal")[github.com/edgarcarbajal]
 
 Email: #link("mailto:edgar@edgarcarbajal.com")[edgar\@edgarcarbajal.com]
@@ -40,6 +34,30 @@ Email: #link("mailto:edgar@edgarcarbajal.com")[edgar\@edgarcarbajal.com]
 Website: #link("https://edgarcarbajal.com")[edgarcarbajal.com]
 
 = Education:
+#set block(spacing: .5em)
+#grid(
+    columns: (1fr, 1fr, 1fr),
+    rows: 2,
+    row-gutter: 15pt,
+    column-gutter: 25pt,
+    align: (left, center, right),
+    //gutter: 25pt,
+
+    //row 1
+    [*B.S. in Computer Science w/ Applied Math Minor*], [*Northern Illinois University*
+    
+    GPA: 3.95], [*Aug 2022 - May 2024*
+
+    _DeKalb, IL_],
+
+    // row 2
+    [*Associates in Science*], [*McHenry County College*
+    
+    GPA: 4.00], [*Aug 2020 - May 2022*
+    
+    _Crystal Lake, IL_]
+)
+#set block(spacing: 1.2em)
 Bachelor of Science - Computer Science - GPA: 3.95
 Northern Illinois University, DeKalb IL
 
@@ -55,18 +73,6 @@ Other: MS Word | MS Excel | Unreal Engine 4 | Forklift Operation
 
 
 = Experience:
-/*
-#infoblock(
-    "John Deere",
-    "May 2023 - Aug 2023",
-    "Software Engineer IT Intern",
-    "Moline IL"
-)[
-    - Revamped an old, static feature in a highly-used web application by John Deere equipment dealers to be more dynamic/user customizable.
-    - Worked with frontend using React and Typescript for the web application UI/user behavior, and backend with Java and Spring to create new API endpoints and connect to the application database.
-]
-*/
-
 John Deere | May 2023 - Aug 2023
 Software Engineer IT Intern - Moline IL
 - Revamped an old, static feature in a highly-used web application by John Deere equipment dealers to be more dynamic/user customizable.
