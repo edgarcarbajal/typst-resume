@@ -1,3 +1,21 @@
+#show link: text.with(rgb("#00a3cd"))
+
+#set document(title: "Resume", author: "Edgar Carbajal")
+
+#set page(
+    paper: "us-letter",
+    margin: (x: 1.0in, y: 1.0in),
+    footer: [
+        #set align(center)
+        #set text(size: 8pt, style: "italic")
+        Typst source code at
+        #link("https://github.com/edgarcarbajal/typst-resume")[github.com/edgarcarbajal/typst-resume]
+        under
+        Cool
+        license
+    ]
+)
+
 #align(center, text(24pt)[
     *Edgar Carbajal*
 ])
@@ -9,11 +27,11 @@
         
     box[#term]
 }
-Github: github.com/edgarcarbajal
+Github: #link("https://github.com/edgarcarbajal")[github.com/edgarcarbajal]
 
-Email: edgar\@edgarcarbajal.com
+Email: #link("mailto:edgar@edgarcarbajal.com")[edgar\@edgarcarbajal.com]
 
-Website: edgarcarbajal.com
+Website: #link("https://edgarcarbajal.com")[edgarcarbajal.com]
 
 = Education:
 Bachelor of Science - Computer Science - GPA: 3.95
