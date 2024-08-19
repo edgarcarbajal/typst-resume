@@ -1,5 +1,7 @@
 #show link: text.with(rgb("#00a3cd"))
 
+#set text(font: ("PT Serif", "Noto Emoji"), size: 10pt)
+
 #show heading.where(level: 1): it => {
     it
     v(-3mm)
@@ -33,9 +35,9 @@
         *Edgar Carbajal*
     ],
     block()[
-        Github: #link("https://github.com/edgarcarbajal")[github.com/edgarcarbajal]\
-        Email: #link("mailto:edgar@edgarcarbajal.com")[edgar\@edgarcarbajal.com]\
-        Website: #link("https://edgarcarbajal.com")[edgarcarbajal.com]
+        💻: #link("https://github.com/edgarcarbajal")[github.com/edgarcarbajal]\
+        📧: #link("mailto:edgar@edgarcarbajal.com")[edgar\@edgarcarbajal.com]\
+        🌐: #link("https://edgarcarbajal.com")[edgarcarbajal.com]
     ]
 )
 
@@ -64,18 +66,17 @@
 = Skills:
 #grid(
     columns: (1fr, 2fr),
-    align: (horizon, left),
     row-gutter: 15pt,
     column-gutter: 15pt,
 
     //row 1
-    [== Programming Languages:], [C++ | Python | Bash | Javascript | Java | Julia | Swift],
+    [== Programming Languages:], [C++ | Python | Javascript, HTML & CSS | Java | SQL | Julia | Swift | Bash],
 
     //row 2
-    [== Technologies/Libraries: ], [React.js | iOS | Express.js | Git/Github | Spring | Maven | HTML & CSS | SQL | CI/CD],
+    [== Technologies/Libraries: ], [React.js | iOS | Express.js | Git/Github | Spring | Maven | CI/CD],
 
     //row 3
-    [== Other: ], [MS Word | MS Excel | Unreal Engine 4 | Forklift Operation]
+    [== Other: ], [MS Word | MS Excel | Unreal Engine 4 | Forklift Operator]
 )
 
 = Experience:
@@ -94,9 +95,30 @@
 
 
 = Notable Projects:
-Plant Company Quote Web Application (CSCI 467) | Jan 2024 - May 2024
+#grid(
+    columns: (1fr, 1fr),
+    align: (left, right),
+
+    //row 1
+    [== Plant Company Quote Web Application #link("https://github.com/edgarcarbajal/cs467proj")[🔗]\
+    _Intro to Software Engineering (CSCI467) Semester Project_], [*Jan 2024 - May 2024*\
+    _DeKalb, IL_]
+)
+
 - Semester group project where we built a web application that tracks quotes for a plant company; meeting requirements given to us by the professor.
 - Used React + Node.js as the frontend application server, Express.js as the backend/API server, and MariaDB as the database.
 - Learned a lot about the software development cycle, and how to convert user requirements into a fully-functioning software product.
 
 
+#grid(
+    columns: (1fr, 1fr),
+    align: (left, right),
+
+    //row 1
+    [== Karaoke Web Application #link("https://github.com/edgarcarbajal/cs466proj")[🔗]\
+    _Databases (CSCI466) Semester Project_], [*Jan 2023 - May 2023*\
+    _DeKalb, IL_]
+)
+- Semester group project where we built a web application given requirements by the professor; to show what we had learned about databases.
+- Used PHP to interface with the backend, and dynamically printout the HTML/CSS to be rendered to the frontend.
+- Showed my knowledge about how to set up database schemas in a relational database, how to make sure how to use SQL to get, and update the right data.
