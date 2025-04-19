@@ -70,16 +70,28 @@
     column-gutter: 15pt,
 
     //row 1
-    [== Programming Languages:], [C++ | Python | Javascript, HTML & CSS | Java | SQL | Julia | Swift | Bash],
+    [== Programming Languages:], [C++ | Python | Javascript, HTML & CSS | Java | SQL | C\# | Swift | Bash],
 
     //row 2
-    [== Technologies/Libraries: ], [React.js | iOS | Express.js | Git/Github | Spring | Maven | CI/CD],
+    [== Technologies/Libraries: ], [React.js | iOS | Express.js | Git/Github | Spring | CI/CD | Blazor | WPF],
 
     //row 3
     [== Other: ], [MS Word | MS Excel | Unreal Engine 4 | Forklift Operator]
 )
 
 = Experience:
+#grid(
+    columns: (1fr, 1fr),
+    align: (left, right),
+
+    //row 1
+    [== Graphic Designer/Software Developer\
+    _McHenry County_], [*Feb 2025 - Current*\
+    _Woodstock, IL_],
+)
+- Working as full-stack developer creating websites & internal-use applications for use in the Illinois 22nd Circuit Court at McHenry County
+
+
 #grid(
     columns: (1fr, 1fr),
     align: (left, right),
@@ -119,6 +131,5 @@
     _Databases (CSCI466) Semester Project_], [*Jan 2023 - May 2023*\
     _DeKalb, IL_]
 )
-- Semester group project where we built a web application given requirements by the professor; to show what we had learned about databases.
 - Used PHP to interface with the backend, and dynamically printout the HTML/CSS to be rendered to the frontend.
 - Showed my knowledge about how to set up database schemas in a relational database, how to make sure how to use SQL to get, and update the right data.
